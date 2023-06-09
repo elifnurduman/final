@@ -1,7 +1,7 @@
 ---
-title: "Title"
+"title": Second Hand House Sales In Turkey
 author: 
-  - Last Name, First Name[^1]
+  - Duman, Elifnur [^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -25,98 +25,162 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
-    Write your abstract here.
+    Second-hand housing sales in Turkey constitute an important part of the real estate market, attracting intense interest and demand. This market has become a rapidly growing and striking sector in recent years. The main purpose of this study is to examine the effects of different factors affecting Turkey on second-hand house sales. In this project, various literature studies were used to understand the factors on which second-hand housing sales depend, and the data were obtained from the website of the Central Bank of the Republic of Turkey. In the project, both quantitative and qualitative research methods were used and the effects of the increase in the exchange rate of second-hand housing sales in Turkey and the industrialization population growth were examined. As a result of the study, it was determined that the increase in exchange rate was not a factor alone, but the direct effects of industrialization and population.
+    KEY WORDS:
+    second-hand housing, second-hand,second-hand in türkiye, population, exchange rate, industrialization
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
-<!-- ======================================================================= -->
-<!-- ============================== FOOTNOTES ============================== -->
-<!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+<!-- ======================================================================= --> <!-- ============================== FOOTNOTES ============================== --> <!-- ======================================================================= --> [^1]: 20080480, [Github Repo](https://github.com/elifnurduman/final.git)
 
-# Important Information About Midterm
 
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 37 IN THIS FILE!}
+# INTRODUCTION
+The real estate sector in Turkey has experienced significant growth and activity, especially in the second-hand home sales market. Significant geographic differences in prices and sales volume define the used home sales market. Many factors such as population growth, economic growth, infrastructure, tourism, urbanization and natural events directly or indirectly affect the second-hand housing market. In this study, we will examine the effects of the above-mentioned economic factors on second-hand house sales in different regions of Turkey. For this analysis, a data set consisting of 62 observers and 12 variables was used by using the monthly values of the last five years obtained by the Central Bank of the Republic of Turkey.
 
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
+# Literature
 
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 9 June 2023, 23:59.**
-
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
-
-# Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
-
-The sections in your project assignment should definitely include the sections in this text. Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
-
-## Literature Review
-
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least six** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+According to Eğilmez (2019), it has been observed that inflation and interest rates started to decrease and there were not many movements in exchange rates with the new economic model that was tried to be implemented after the crisis experienced in Turkey in 2000-2001. Keeping inflation under control with various policies implemented, the decrease in interest rates, the appreciation of the national currency, the increase in urban transformation projects and the advantages provided, the attractiveness of foreigners to purchase housing from Turkey and thus the increase, the increase in profits in alternative investment instruments such as gold, compared to the increase in housing prices. low level supported the increase in housing prices. With the creation of new and modern housing supply, the demand for housing has increased. As housing demand increased, housing prices also increased.
+Çetin (2021), many macroeconomic economies, especially the guiding value of foreign currencies of the Turkish currency, the policies of banks regarding housing loans and the interest rates applied to loans, point to the increase in housing prices and subsequent changes in housing demand.[@ccetin2021turkiye]
+Coşkun (2016), the population and its increase, demographic developments, urbanization, migrations and the differentiation of many habits related to housing cause various qualitative and quantitative changes in the housing requirement. Along with these factors, housing supply, demand and prices have increased significantly, as housing is seen as an investment tool. Unexpected changes in the money supply, industrial production or interest rates affect housing prices and thus housing demand. Our country's housing market also has an important place in household wealth and fund flows. The fact that the housing market in our country has the property of an ownership market and the rapid increase in housing demand and prices in recent years can be evaluated as being related to the property of housing as an investment tool. Considering that housing prices are in a constant upward trend; This strengthens the perception that housing is protected against inflation and thus the demand for housing.
+Again Coşkun (2016), after the 2000-2001 crisis, housing supply, demand and prices entered a period of rapid increase. Factors affecting the housing supply/demand such as urbanization, migration, increase in population and number of households, increase in income/wealth, decrease in housing loan interest rates, change in housing consumption habits, urban transformation process and high producer profit in housing production also increase the mobility in the housing market and increase the market's demand. kept it alive.[@cocskun2016konut]
+Şanlı and Peker (2023), the housing market has a central importance due to its relationship with many sectors. On the one hand, household microeconomics; is consumption and saving decisions, on the other hand, macroeconomics; is among the important indicators that determine economic growth, employment, domestic demand volume, and similar variables. He said that the effect of an expansionary monetary policy on the housing market is twofold. While housing demand is dealt with first, housing sales prices may increase. The first effect happens faster, the second effect depends on the housing stock. The low housing supply along with the increasing demand causes the prices to move upwards. The sensitivity of the housing sector to monetary policy also stems from the fact that money is an investment tool. After the households meet their compulsory housing needs, they can be directed to housing as savings. However, considering the desire to acquire a more luxurious residence, it can be observed that the demand for housing remains constantly alive.[@csanli2022enflasyon]
+Lebe and Yiğit (2009) discussed income, population, industrialization, number of marriages, inflation, real interest, housing cost, and employment in agriculture as factors determining housing demand in Turkey. Accordingly, he said that income, population, industrialization and the number of marriages affect housing demand positively and other variables negatively.[@lebe2009analysis]
+Çolak (2021) has gathered the factors affecting house sales under five headings. These: Effect of exchange rates, consumer price index (CPI) effect, effect of deposit interest rate, impact of the industrial production index, the impact of employment. The exchange rate is effective in house sales and the increase in costs is seen as a factor such as the pressure of domestic customers. In this context, the exchange rate is seen as an element that includes foreign investors in the housing sector and is determined as the driving force of the housing market. In the inflationary arena, as in other products and services, house prices tend to increase constantly, and this often reflects negatively on house sales. In this case, the smallest movement in house sales also raises house prices.[@ccolak2021analysis]
+Öztürk and Fitöz (2009) found that there is a linear relationship between housing demand and interest rates, that is, as the interest rate increases, the demand for housing also increases. From the point of view of industrial production, the decline in housing production as an effect of stagnation and recession brought about decreases in new and existing housing sales.[@ozturk2009turkiye]
 
 # Data
-In this section, discuss the source of the data set you use in your study, if you have done any operation on the raw data, these operations and the summary statistics about the data set. In this section, it is mandatory to have a table (Table \ref{tab:summary}) containing summary statistics (mean, standard deviation, minimum, maximum, etc. values) of all variables. Make the necessary references to your tables as shown in the previous sentence [@perkins:1991].
+The data used in this analysis were obtained from the website of the Central Bank of the Republic of Turkey and these data cover the dates 02.2018-02-2023. These dates are reviewed monthly and consist of 62 observers. The variables were randomly selected to cover various regions of Turkey in order to understand the second-hand house sales in Turkey in general and there is no correlation between each other.
 
-R codes for the analysis should start in this section. In this section, you should include the codes that imports the data set into R and the codes that generate summary statistics.
 
-```{r}
-library(tidyverse)
-library(here)
-survey <- read_csv(here("data/survey.csv"))
-```
-
-Note that code options are edited in some of the code chunks in the Rmd file.
-
-```{r, echo=FALSE}
-library(xtable) 
-library(summarytools)
-st_options(lang = "en")
-```
-
-With the `echo=FALSE` option, prevent the codes from appearing in the derived pdf file and report your results in tables.
-
-```{r results='asis', echo=FALSE}
-survey %>%
-  select("sex", "credits", "handedness", "height", "handspan") %>% 
-  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
-  xtable(caption = "Summary Statistics",
-         label = "tab:summary",
-         align = c("l", "c", "c", "c", "c", "c")) %>% 
-  print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
+```{r echo=FALSE}
+ankara <- c(6463, 7518, 6756, 7581, 7799, 7904, 6034, 7218, 7620, 5021, 7018, 4181, 5163, 7066, 6087, 5684, 3774, 6456, 7600, 10985, 10295, 10083, 14005, 8790, 10021, 9101, 3334, 3728, 16819, 20530, 13240, 9578, 8215, 8048, 7658, 4986, 6041, 8905, 7257, 4497, 10754, 8375, 10710, 11242, 10578, 13637, 16233, 6523, 6916, 10233, 10029, 9567, 10855, 6099, 7877, 7000, 6389, 7468, 12263, 7146, 6670)
+gaziantep <- c(1135, 1312, 1213, 1355, 1315, 1525, 1297, 1455, 1431, 1012, 1247, 876, 922, 1268, 1406, 1262, 816, 1552, 1563, 2276, 2246, 1971, 2675, 1797, 1801, 1811, 822, 905, 2825, 3125, 2451, 2242, 2002, 1828, 1522, 1009, 1202, 1777, 1426, 919, 2317, 1824, 2186, 2307, 2022, 2510, 3022, 1043, 1314, 2088, 2015, 1911, 2362, 1639, 2195, 1787, 1667, 1827, 3243, 1687, 590)
+istanbul <- c(8740, 9940, 9351, 10839, 10624, 10414, 8281, 10715, 13178, 9081, 12818, 7436, 8097, 10687, 10091, 9933, 6247, 10567, 9880, 14918, 15463, 16430, 25545, 14652, 15336, 13407, 4091, 5094, 20546, 29003, 22189, 18300, 15869, 14981, 13845, 9920, 11419, 15690, 14028, 8203, 19061, 14030, 17911, 20721, 19369, 23392, 27328, 11126, 13639, 17282, 19879, 16833, 20409, 10442, 13451, 13902, 12190, 14412, 25037, 13162, 11068)
+izmir <- c(3510, 4034, 3722, 4044, 3951, 3595, 2933, 3421, 3647, 2638, 3802, 2206, 2603, 3482, 3490, 3322, 2042, 3564, 4031, 5943, 6045, 5890, 8524, 4993, 5299, 5023, 1679, 2100, 8160, 11090, 7952, 5887, 5049, 4686, 4005, 2830, 3324, 4800, 3975, 2440, 5394, 4265, 5759, 6536, 6099, 8364, 9720, 4002, 4098, 5827, 6198, 5306, 6083, 3553, 4677, 4348, 3940, 4600, 7589, 3798, 3622)
+kahramanmaraş <- c(484, 522, 503, 523, 563, 662, 569, 717, 769, 450, 616, 405, 450, 600, 604, 526, 443, 755, 868, 1133, 944, 848, 1158, 783, 769, 719, 291, 362, 1262, 1291, 1109, 806, 717, 575, 533, 429, 461, 639, 565, 349, 849, 682, 944, 894, 793, 944, 1135, 455, 571, 920, 773, 788, 949, 647, 931, 747, 678, 746, 1297, 630, 122)
+kayseri <- c(1238, 1379, 1300, 1598, 1508, 1765, 1802, 1917, 1786, 1090, 1458, 876, 978, 1324, 1205, 1015, 798, 1383, 1902, 2226, 1900, 1853, 2428, 1609, 1516, 1521, 642, 760, 3016, 3396, 2527, 1813, 1640, 1578, 1507, 1085, 1340, 1587, 1342, 836, 2087, 1733, 2653, 2240, 1959, 2730, 3194, 1250, 1290, 1976, 1694, 1799, 2019, 1551, 2059, 1644, 1607, 1785, 2602, 1836, 1136)
+muş <- c(55, 63, 72, 81, 68, 105, 108, 132, 136, 74, 103, 53, 69, 53, 61, 89, 60, 110, 105, 146, 107, 109, 141, 71, 100, 72, 47, 63, 150, 170, 183, 142, 117, 105, 104, 84, 124, 81, 110, 70, 111, 110, 154, 135, 142, 173, 203, 91, 81, 165, 112, 146, 158, 139, 235, 159, 149, 172, 261, 113, 89)
+şanlıurfa <- c(679, 781, 716, 750, 724, 918, 740, 983, 1005, 871, 972, 673, 723, 825, 844, 744, 624, 1174, 1046, 1566, 1437, 1350, 1835, 1243, 1163, 1116, 628, 620, 1923, 2116, 1684, 1706, 1642, 1533, 1509, 967, 1154, 1409, 1091, 680, 1773, 1505, 1737, 1763, 1599, 2037, 2579, 1012, 1119, 1654, 1460, 1371, 1627, 1101, 1368, 1196, 1199, 1281, 2259, 1211, 647)
+tekirdağ <- c(1157, 1305, 1193, 1470, 1231, 1442, 1134, 1353, 1255, 959, 1324, 851, 898, 1185, 1183, 1163, 788, 1300, 1338, 1907, 1744, 1711, 2364, 1478, 1625, 1530, 500, 662, 3310, 3937, 2884, 2429, 1933, 1560, 1391, 1135, 1318, 1907, 1608, 1069, 2288, 1688, 2527, 2502, 2278, 2997, 3755, 1631, 1814, 2486, 2504, 2328, 2843, 1573, 2035, 1789, 1477, 1715, 2650, 1520, 1251)
+trabzon <- c(419, 587, 485, 564, 596, 613, 656, 739, 792, 432, 644, 420, 371, 544, 498, 508, 345, 519, 696, 793, 787, 715, 1158, 597, 527, 480, 176, 259, 1039, 1198, 1010, 782, 654, 644, 668, 467, 447, 606, 485, 339, 666, 683, 846, 864, 702, 917, 1219, 551, 590, 773, 599, 721, 804, 617, 782, 609, 585, 715, 1185, 575, 507)
+yozgat <- c(183, 175, 186, 236, 198, 246, 261, 276, 281, 144, 254, 128, 110, 189, 209, 139, 112, 304, 318, 374, 319, 242, 363, 215, 239, 227, 115, 127, 513, 536, 408, 263, 296, 214, 211, 122, 177, 214, 147, 118, 253, 271, 433, 298, 261, 337, 449, 182, 206, 299, 269, 295, 378, 293, 487, 360, 297, 283, 416, 249, 194)
+Date <- c("2018-02", "2018-03", "2018-04", "2018-05", "2018-06", "2018-07", "2018-08", "2018-09", "2018-10", "2018-11", "2018-12", "2019-01", "2019-02", "2019-03", "2019-04", "2019-05", "2019-06", "2019-07", "2019-08", "2019-09", "2019-10", "2019-11", "2019-12", "2020-01", "2020-02", "2020-03", "2020-04", "2020-05", "2020-06", "2020-07", "2020-08", "2020-09", "2020-10", "2020-11", "2020-12", "2021-01", "2021-02", "2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12","2023-01","2023-02")
+Date <- as.Date(paste0(Date, "-01"), format = "%Y-%m-%d")
+data <- data.frame( Date = Date, ankara = ankara, gaziantep = gaziantep, istanbul = istanbul, izmir = izmir, kahramanmaraş = kahramanmaraş, kayseri = kayseri, muş = muş, şanlıurfa = şanlıurfa, tekirdağ, trabzon = trabzon, yozgat = yozgat)
 ```
 
 
-# Methods and Data Analysis
-In this section describe the methods that you use to achieve the purpose of the study. You should use the appropriate analysis methods (such as hypothesis tests and correlation analysis) that we covered in the class. If you want, you can also use other methods that we haven't covered. If you think some method is more suitable for the purpose of the analysis and the data set, you can use that method [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+```{r include=FALSE}
+data_without_date <- data[, !colnames(data) %in% "Date"]
+summary_table <- data.frame(
+  Mean = sapply(data_without_date, mean),
+  StandardDeviation = sapply(data_without_date, sd),
+  Minimum = sapply(data_without_date, min),
+  Maximum = sapply(data_without_date, max)
+)
 
-For example, if you are performing regression analysis, discuss your predicted equation in this section. Write your equations and mathematical expressions using $LaTeX$.
-
-$$
-Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
-$$
-
-This section should also include different tables and plots. You can add histograms, scatter plots (such as Figure \@ref(fig:plot)), box plots, etc. Make the necessary references to your figures as shown in the previous sentence.
-
-
-```{r plot, fig.align='center', fig.cap='An Awesome Plot'}
-survey %>% 
-  ggplot(aes(x = handedness, y = handspan)) +
-  geom_point() +
-  geom_smooth() +
-  scale_x_continuous("Handedness") + 
-  scale_y_continuous("Handspan")
+print(summary_table)
 ```
 
 
+```{r echo=FALSE}
+library(kableExtra)
+kable(summary_table, caption = "Summary Statistics", format = "markdown")
+```
+
+
+# Methods and data analysis
+
+In Figure 1, the total values of second-hand house sales in Ankara, Gaziantep, Istanbul, Izmir, Kahramanmaraş, Kayseri, Muş, Şanlıurfa, Tekirdağ, Trabzon, Yozgat provinces are shown according to the data obtained from the Central Bank of the Republic of Turkey. There was a constantly changing increase-decrease from 2018 to 2019, and a serious decrease was observed at the end of 2019. Although it tends to increase in general from 2019 to 2020, serious decreases have also been observed. In the period from 2020 to 2021, the data that started to decrease at the end of 2019 continued to decrease at the beginning of 2020 and experienced a serious decrease. Afterwards, it suddenly increased, but after a while, serious decreases were experienced again. From 2021 to 2022, there was a constantly changing increase-decrease, and a serious decrease was observed at the end of 2022. In the process from 2022 to 2023, there has been a constantly changing increase-decrease.
+
+Figure 2 shows the change in the dollar between the years 2018-2023, according to the data received from the Central Bank of the Republic of Turkey. While it is observed that the dollar, which has an upward trend in general, tends to decrease from time to time, it is also observed that it often tends to remain stable. While significant stability was observed in the 2019-2020 interval, a significant increase was observed towards the end of 2022. Between 2019-2020 While the dollar generally remained stable, various increases and decreases were observed in the tendency to buy second-hand housing, as shown in Figure 1, in early 2020. Although there is an increase between 2020-2021, it tends to remain stable after the increase, while the dollar tends to remain stable in these years, significant decreases and significant increases were observed in second-hand housing sales. This significant increase was observed in April, while the dollar tended to increase continuously between 2022 and 2023, variable increases-decreases were observed in second-hand house sales.
+
+
+```{r echo=FALSE, fig.height=3, fig.width=3}
+Date <- c("2018-02", "2018-03", "2018-04", "2018-05", "2018-06", "2018-07", "2018-08", "2018-09", "2018-10", "2018-11", "2018-12", "2019-01", "2019-02", "2019-03", "2019-04", "2019-05", "2019-06", "2019-07", "2019-08", "2019-09", "2019-10", "2019-11", "2019-12", "2020-01", "2020-02", "2020-03", "2020-04", "2020-05", "2020-06", "2020-07", "2020-08", "2020-09", "2020-10", "2020-11", "2020-12", "2021-01", "2021-02", "2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12","2023-01","2023-02")
+total <- c(52240, 60204, 55553, 64153, 62349, 66261, 55792, 67108, 71721, 48805, 66984, 41889, 45802, 60883, 58287, 54691, 38090, 63305, 69904, 95510, 92629, 89463, 126594, 77575, 81450, 74581, 27935, 34076, 131380, 161420, 118285, 95368, 82598, 75825, 69083, 48319, 56485, 77876, 66651, 40962, 94639, 75113, 98761, 103176, 95487, 123108, 149756, 61103, 68690, 95833, 96637, 89907, 105777, 65214, 84466, 77448, 69968, 80426, 130074, 70176, 56555)
+Date <- as.Date(paste0(Date, "-01"), format = "%Y-%m-%d")
+totalsales <- data.frame(Date = Date, total = total)
+
+plot(Date,total, type = "l", xlab = "Date", ylab = "number of houses sold", 
+     main = "figure1 : Number of sales ", xlim = c(min(Date), max(Date)))
+
+Date <- c("2018-02", "2018-03", "2018-04", "2018-05", "2018-06", "2018-07", "2018-08", "2018-09", "2018-10", "2018-11", "2018-12", "2019-01", "2019-02", "2019-03", "2019-04", "2019-05", "2019-06", "2019-07", "2019-08", "2019-09", "2019-10", "2019-11", "2019-12", "2020-01", "2020-02", "2020-03", "2020-04", "2020-05", "2020-06", "2020-07", "2020-08", "2020-09", "2020-10", "2020-11", "2020-12", "2021-01", "2021-02", "2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12","2023-01","2023-02")
+Date <- as.Date(paste0(Date, "-01"), format = "%Y-%m-%d")
+dolar <- c(4, 4, 4, 4, 5, 5, 6, 6, 6, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 7, 7, 8, 8, 8, 9, 9, 8, 9, 9, 11, 14, 14, 14, 15, 15, 16, 17, 17, 18, 18, 19, 19, 19, 19, 19)
+dolarsales <- data.frame( Date = Date, dolar = dolar)
+plot(Date,dolar, type = "l", xlab = "Date", ylab = "dolar", 
+     main = "Figure 2: dolar exchange ", xlim = c(min(Date), max(Date)))
+
+
+```
+
+
+According to the data obtained from the Central Bank of the Republic of Turkey in Figure 3, the population increased between 2018-2019 and increased more than the previous year between 2019-2020. A partial increase is observed between 2020-2021, but not much difference is observed. The population between 2022 and 2023 could not be analyzed because it is not in the TUIK data. The population is in an increasing trend between the years 2018-2021 and as seen in Figure 4, although partial increases are observed in the sales of second-hand houses, they have very close values.
+
+
+
+
+```{r echo=FALSE, fig.height=3, fig.width=3}
+years <- c(2017,2018, 2019, 2020, 2021)
+total <- c(80811, 82004, 83155, 83614, 84680)
+
+totalnumber <- data.frame(years, total )
+library(ggplot2)
+ggplot(totalnumber, aes(x = years, y = total)) +
+  geom_col(fill = "brown") +
+  labs(x = "Years", y = "Number of sales", title = "Figure 3 :Number of housing sales") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+years <- c (2017, 2018, 2019, 2020, 2021)
+population <- c(749616, 723826, 837047, 1029576, 1030333)
+
+populationsnumber <- data.frame(years, population)
+
+library(ggplot2)
+ggplot(populationsnumber, aes(x = years, y = population)) +
+  geom_col(fill = "turquoise") +
+  labs(x = "Years", y = "Number of People", title = "Figure 4 : population (millions)") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+```
+
+According to the data obtained from the Central Bank of the Republic of Turkey in Figure 5, fluctuations in terms of increase-decrease in second-hand house sales in Istanbul were observed in the nine-month period from January 2020 to October 2020. While there was a serious decrease in January, it reached the lowest level in April. Afterwards, it increased rapidly and reached its highest level in July. Afterwards, these values continued to decrease. Again, in the Muş example shown in the same graph, constant values close to zero were observed.
+According to the data received from the Central Bank of the Republic of Turkey in Figure 6 and Figure 5, fluctuations in the sense of increase and decrease in second-hand house sales in Ankara were observed in the nine-month period from January 2020 to October 2020. While there was a serious decrease in January, it reached the lowest level in April.
+Afterwards, it increased rapidly and reached its highest level in July. Afterwards, these values continued to decrease. Again, in the example of Kayseri, shown in the same graph, there were no significant fluctuations. While there was a decrease from January to April, it increased and reached the highest level in July. Afterwards, it was observed that it decreased and progressed.
+
+
+
+```{r echo=FALSE, fig.height=3, fig.width=3}
+data2 <- subset(data, Date >= as.Date("2019-12-01") & Date <= as.Date("2020-12-1"))
+library(ggplot2)
+ggplot(data2, aes(x = Date)) +
+  geom_line(aes(y = istanbul, color = "istanbul")) +
+  geom_line(aes(y = muş, color = "muş")) +
+                       labs(x = "Date", y = "cities", color = "Category", title = "Figure 5:") +
+  scale_color_manual(values = c("black", "blue"))
+
+data3 <- subset(data, Date >= as.Date("2019-12-01") & Date <= as.Date("2020-12-1"))
+library(ggplot2)
+ggplot(data3, aes(x = Date)) +
+  geom_line(aes(y = ankara, color = "ankara")) +
+  geom_line(aes(y = kayseri, color = "kayseri")) +
+                       labs(x = "Date", y = "cities", color = "Category", title ="Figure: 6") +
+  scale_color_manual(values = c("black", "blue"))
+```
 # Conclusion
-Summarize the results of your analysis in this section. Discuss to what extent your results responded to the research question you identified at the beginning and how this work could be improved in the future.
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+In this study, the effect of different factors affecting Turkey on second-hand housing sales was investigated. In this context, various literature studies were used to understand the factors on which second-hand house sales depend, and various graphs were prepared with the data obtained from the website of the Central Bank of the Republic of Turkey, making it easier to understand and observe the data. Various analyzes were made as a result of the quantitative and qualitative methods used in the study. The important results of these analyzes are as follows:
+It has not been determined exactly how the increase or decrease in the dollar rate alone affects the sales of second-hand housing, because although the dollar is in an increasing trend, there is no specific increase or decrease in second-hand housing sales while it remains stable. Likewise, while the dollar is constantly increasing, there has not been a certain increase or decrease in second-hand house sales, it is in a constant fluctuation state.
+The increase in population has increased the increase in second-hand housing. As the population increases over the years, it also increases the second-hand housing sales as it increases the demand for investment or luxury housing.
+Second-hand housing sales are higher in developed and industrialized cities than in developing or undeveloped cities. The reason for this may be related to factors such as employment and population.
+This research has determined that there are links between the factors mentioned in the study, although not fully, with the sale of second-hand housing, the dollar exchange rate is not a factor alone, but a direct effect of population and industrialization.
+Since this research covers eleven randomly selected provinces of Turkey, it does not contain generalizable results. In order to reach a more comprehensive result throughout the country, studies with more data covering the whole country can be carried out, and micro studies such as the one I am doing now can be supported to facilitate these studies.
+
 
 \newpage
 # References {#references}
